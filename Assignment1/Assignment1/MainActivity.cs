@@ -9,12 +9,18 @@ using Android.Support.V7.App;
 using System.Collections.Generic;
 using Assignment1.Adapter;
 using System.Linq;
+using Android.Media;
 
 namespace Assignment1
 {
     [Activity(Label = "Assignment1", MainLauncher = true, LaunchMode = Android.Content.PM.LaunchMode.SingleTop, Icon = "@drawable/icon", Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
+    
+
     public class MainActivity : AppCompatActivity
     {
+        //audio
+        MediaPlayer player;
+
         public List<string> suggestSource = new List<string>();
 
         public GridViewAnswerAdapter answerAdapter;
@@ -40,7 +46,13 @@ namespace Assignment1
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.main);
 
+            //Audio Play
+            player = MediaPlayer.Create(this, Resource.Drawable.Game_Play);
+            player.Start();
+
             InitViews();
+
+            
 
         }
 

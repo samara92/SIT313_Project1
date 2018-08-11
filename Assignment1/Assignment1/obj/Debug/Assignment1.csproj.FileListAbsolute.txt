@@ -73,5 +73,6 @@ C:\Users\samy\Documents\Projects\Assignment1\Assignment1\obj\Debug\android\asset
 C:\Users\samy\Documents\Projects\Assignment1\Assignment1\obj\Debug\res\drawable\orange.png
 C:\Users\samy\Documents\Projects\Assignment1\Assignment1\obj\Debug\res\drawable\apple.png
 C:\Users\samy\Documents\Projects\Assignment1\Assignment1\obj\Debug\res\drawable\mango.png
+C:\Users\samy\Documents\Projects\Assignment1\Assignment1\obj\Debug\res\drawable\game_play.mp3
 C:\Users\samy\Documents\Projects\Assignment1\Assignment1\bin\Debug\Assignment1.dll
 C:\Users\samy\Documents\Projects\Assignment1\Assignment1\obj\Debug\linksrc\Assignment1.dll.mdb
