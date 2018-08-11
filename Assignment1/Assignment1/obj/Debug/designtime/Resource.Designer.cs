@@ -24,6 +24,10 @@ namespace Assignment1
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
+		public static void UpdateIdValues()
+		{
+		}
+		
 		public partial class Animation
 		{
 			
@@ -1663,7 +1667,13 @@ namespace Assignment1
 			public const int abc_vector_test = 2130837586;
 			
 			// aapt resource value: 0x7F010002
-			public const int Icon = 2130771970;
+			public const int apple = 2130771970;
+			
+			// aapt resource value: 0x7F010003
+			public const int Icon = 2130771971;
+			
+			// aapt resource value: 0x7F010004
+			public const int mango = 2130771972;
 			
 			// aapt resource value: 0x7F020053
 			public const int notification_action_background = 2130837587;
@@ -1700,6 +1710,9 @@ namespace Assignment1
 			
 			// aapt resource value: 0x7F02005C
 			public const int notify_panel_notification_icon_bg = 2130837596;
+			
+			// aapt resource value: 0x7F010005
+			public const int orange = 2130771973;
 			
 			static Drawable()
 			{

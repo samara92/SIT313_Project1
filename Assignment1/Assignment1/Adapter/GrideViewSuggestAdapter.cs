@@ -66,7 +66,40 @@ namespace Assignment1.Adapter
                     button.Text = suggestSource[position];
                     button.Click += delegate
                     {
-                        //code
+                        //convert char array to string
+                        string answer = new string(mainActivity.answer);
+                        if (answer.Contains(suggestSource[position]))
+                        {
+                            char compare = suggestSource[position][0]; //get character from string
+
+                            for (int i = 0; i < answer.Length; i++)
+                            {
+                                if (compare == answer[i])
+                                Common.Common.user_submit_answer[i] = compare;
+                            }
+                            //update UI
+                            GridViewAnswerAdapter answerAdapter = new GridViewAnswerAdapter(Common.Common.user_submit_answer, context);
+                            mainActivity.gvAnswer.Adapter = answerAdapter;
+                            answerAdapter.NotifyDataSetChanged();
+
+
+                            //remove characters from suggest source
+                            mainActivity.suggestSource[position] = "null";
+                            mainActivity.suggestAdapter = new GrideViewSuggestAdapter(mainActivity.suggestSource, context, mainActivity);
+                            mainActivity.gvSuggest.Adapter = mainActivity.suggestAdapter;
+                            mainActivity.suggestAdapter.NotifyDataSetChanged();
+
+                        }
+                        else
+                        {
+                            //remove characters from suggest source
+                            mainActivity.suggestSource[position] = "null";
+                            mainActivity.suggestAdapter = new GrideViewSuggestAdapter(mainActivity.suggestSource, context, mainActivity);
+                            mainActivity.gvSuggest.Adapter = mainActivity.suggestAdapter;
+                            mainActivity.suggestAdapter.NotifyDataSetChanged();
+
+                        }
+
                     };
                 }
             }

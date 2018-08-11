@@ -70,5 +70,3 @@ C:\Users\samy\Documents\Projects\Assignment1\Assignment1\obj\Debug\android\asset
 C:\Users\samy\Documents\Projects\Assignment1\Assignment1\obj\Debug\android\assets\System.ServiceModel.Internals.pdb
 C:\Users\samy\Documents\Projects\Assignment1\Assignment1\obj\Debug\android\assets\System.Xml.Linq.pdb
 C:\Users\samy\Documents\Projects\Assignment1\Assignment1\obj\Debug\android\assets\System.Xml.pdb
-C:\Users\samy\Documents\Projects\Assignment1\Assignment1\bin\Debug\Assignment1.dll
-C:\Users\samy\Documents\Projects\Assignment1\Assignment1\obj\Debug\linksrc\Assignment1.dll.mdb
