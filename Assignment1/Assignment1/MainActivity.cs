@@ -12,7 +12,7 @@ using System.Linq;
 
 namespace Assignment1
 {
-    [Activity(Label = "@string/app_name", MainLauncher = true, LaunchMode = Android.Content.PM.LaunchMode.SingleTop, Icon = "@drawable/icon", Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
+    [Activity(Label = "Assignment1", MainLauncher = true, LaunchMode = Android.Content.PM.LaunchMode.SingleTop, Icon = "@drawable/icon", Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
     public class MainActivity : AppCompatActivity
     {
         public List<string> suggestSource = new List<string>();

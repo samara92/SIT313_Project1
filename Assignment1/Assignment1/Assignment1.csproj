@@ -119,8 +119,8 @@
     <AndroidResource Include="Resources\drawable-mdpi\Icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\Icon.png" />
     <AndroidResource Include="Resources\drawable\orange.png" />
-    <AndroidResource Include="Resources\drawable\mango.png" />
     <AndroidResource Include="Resources\drawable\apple.png" />
+    <AndroidResource Include="Resources\drawable\mango.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
