@@ -13,7 +13,7 @@ using Android.Media;
 
 namespace Assignment1
 {
-    [Activity(Label = "Assignment1", MainLauncher = true, LaunchMode = Android.Content.PM.LaunchMode.SingleTop, Icon = "@drawable/icon", Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
+    [Activity(Label = "Assignment1" /*dth*/, Icon = "@drawable/icon", Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
     
 
     public class MainActivity : AppCompatActivity
@@ -32,12 +32,12 @@ namespace Assignment1
         public ImageView imgLogo;
         int[] image_list = {
 
+            Resource.Drawable.DragonFruit,
             Resource.Drawable.mango,
             Resource.Drawable.apple,
             Resource.Drawable.orange,
             Resource.Drawable.banana,
             Resource.Drawable.cherry,
-            Resource.Drawable.DragonFruit,
             Resource.Drawable.kiwi,
             Resource.Drawable.papaya,
             Resource.Drawable.strawberry,
@@ -59,8 +59,6 @@ namespace Assignment1
 
             InitViews();
 
-            
-
         }
 
         private void InitViews()
@@ -80,7 +78,7 @@ namespace Assignment1
 
                 if (result.Equals(correct_answer))
                 {
-                    Toast.MakeText(ApplicationContext, "Finish! This is" + result.ToUpper(), ToastLength.Short).Show();
+                    Toast.MakeText(ApplicationContext, "Correct Answer! This is " + result.ToUpper(), ToastLength.Short).Show();
 
                     //Reset
                     Common.Common.user_submit_answer = new char[correct_answer.Length];
@@ -97,7 +95,7 @@ namespace Assignment1
                     SetupList();
                 }
                 else
-                    Toast.MakeText(this, "Incorrect!", ToastLength.Short).Show();
+                    Toast.MakeText(this, "Incorrect! Try again!!", ToastLength.Short).Show();
 
 
             };

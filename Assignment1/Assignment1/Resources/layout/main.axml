@@ -9,6 +9,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <ImageView
+            android:id="@+id/space"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <ImageView
             android:id="@+id/imgLogo"
             android:layout_width="match_parent"
             android:layout_height="200dp" />
@@ -36,9 +40,19 @@
             android:numColumns="auto_fit"
             android:scrollbars="none"
             android:stretchMode="columnWidth" />
+        <ImageView
+            android:id="@+id/space"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
         <Button
             android:id="@+id/btnSubmit"
             android:text="Submit"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnBack"
+            android:text="Back"
             android:layout_alignParentBottom="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />

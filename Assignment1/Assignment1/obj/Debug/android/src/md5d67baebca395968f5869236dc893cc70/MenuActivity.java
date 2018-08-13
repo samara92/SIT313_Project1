@@ -2,7 +2,7 @@ package md5d67baebca395968f5869236dc893cc70;
 
 
 public class MenuActivity
-	extends android.app.Activity
+	extends android.support.v7.app.AppCompatActivity
 	implements
 		mono.android.IGCUserPeer
 {

@@ -138,6 +138,8 @@
     <AndroidResource Include="Resources\layout\menu.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\drawable\gameLogo.png" />
+    <AndroidResource Include="Resources\drawable\text.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

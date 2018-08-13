@@ -82,3 +82,7 @@ C:\Users\samy\Documents\Projects\Assignment1\Assignment1\obj\Debug\res\drawable\
 C:\Users\samy\Documents\Projects\Assignment1\Assignment1\obj\Debug\res\drawable\cherry.png
 C:\Users\samy\Documents\Projects\Assignment1\Assignment1\obj\Debug\res\drawable\dragonfruit.png
 C:\Users\samy\Documents\Projects\Assignment1\Assignment1\obj\Debug\res\layout\menu.xml
+C:\Users\samy\Documents\Projects\Assignment1\Assignment1\obj\Debug\res\drawable\gamelogo.png
+C:\Users\samy\Documents\Projects\Assignment1\Assignment1\obj\Debug\res\drawable\text.png
+C:\Users\samy\Documents\Projects\Assignment1\Assignment1\bin\Debug\Assignment1.dll
+C:\Users\samy\Documents\Projects\Assignment1\Assignment1\obj\Debug\linksrc\Assignment1.dll.mdb

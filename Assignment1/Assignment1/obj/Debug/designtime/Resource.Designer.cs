@@ -24,10 +24,6 @@ namespace Assignment1
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
-		public static void UpdateIdValues()
-		{
-		}
-		
 		public partial class Animation
 		{
 			
@@ -1679,16 +1675,19 @@ namespace Assignment1
 			public const int DragonFruit = 2130771973;
 			
 			// aapt resource value: 0x7F010006
-			public const int Game_Play = 2130771974;
+			public const int gameLogo = 2130771974;
 			
 			// aapt resource value: 0x7F010007
-			public const int Icon = 2130771975;
+			public const int Game_Play = 2130771975;
 			
 			// aapt resource value: 0x7F010008
-			public const int kiwi = 2130771976;
+			public const int Icon = 2130771976;
 			
 			// aapt resource value: 0x7F010009
-			public const int mango = 2130771977;
+			public const int kiwi = 2130771977;
+			
+			// aapt resource value: 0x7F010010
+			public const int mango = 2130771984;
 			
 			// aapt resource value: 0x7F020053
 			public const int notification_action_background = 2130837587;
@@ -1726,17 +1725,20 @@ namespace Assignment1
 			// aapt resource value: 0x7F02005C
 			public const int notify_panel_notification_icon_bg = 2130837596;
 			
-			// aapt resource value: 0x7F010010
-			public const int orange = 2130771984;
-			
 			// aapt resource value: 0x7F010011
-			public const int papaya = 2130771985;
+			public const int orange = 2130771985;
 			
 			// aapt resource value: 0x7F010012
-			public const int strawberry = 2130771986;
+			public const int papaya = 2130771986;
 			
 			// aapt resource value: 0x7F010013
-			public const int watermelon = 2130771987;
+			public const int strawberry = 2130771987;
+			
+			// aapt resource value: 0x7F010014
+			public const int text = 2130771988;
+			
+			// aapt resource value: 0x7F010015
+			public const int watermelon = 2130771989;
 			
 			static Drawable()
 			{
@@ -1842,11 +1844,14 @@ namespace Assignment1
 			// aapt resource value: 0x7F0A0022
 			public const int bottom = 2131361826;
 			
-			// aapt resource value: 0x7F020005
-			public const int btnSubmit = 2130837509;
+			// aapt resource value: 0x7F020007
+			public const int btnBack = 2130837511;
 			
 			// aapt resource value: 0x7F020006
-			public const int btnSubmit1 = 2130837510;
+			public const int btnSubmit = 2130837510;
+			
+			// aapt resource value: 0x7F020008
+			public const int btnSubmit1 = 2130837512;
 			
 			// aapt resource value: 0x7F0A002E
 			public const int buttonPanel = 2131361838;
@@ -1896,11 +1901,11 @@ namespace Assignment1
 			// aapt resource value: 0x7F0A0028
 			public const int expand_activities_button = 2131361832;
 			
-			// aapt resource value: 0x7F020003
-			public const int gvAnswer = 2130837507;
-			
 			// aapt resource value: 0x7F020004
-			public const int gvSuggest = 2130837508;
+			public const int gvAnswer = 2130837508;
+			
+			// aapt resource value: 0x7F020005
+			public const int gvSuggest = 2130837509;
 			
 			// aapt resource value: 0x7F0A0004
 			public const int home = 2131361796;
@@ -1920,8 +1925,8 @@ namespace Assignment1
 			// aapt resource value: 0x7F0A0029
 			public const int image = 2131361833;
 			
-			// aapt resource value: 0x7F020002
-			public const int imgLogo = 2130837506;
+			// aapt resource value: 0x7F020003
+			public const int imgLogo = 2130837507;
 			
 			// aapt resource value: 0x7F0A0063
 			public const int info = 2131361891;
@@ -2039,6 +2044,9 @@ namespace Assignment1
 			
 			// aapt resource value: 0x7F0A0011
 			public const int showTitle = 2131361809;
+			
+			// aapt resource value: 0x7F020002
+			public const int space = 2130837506;
 			
 			// aapt resource value: 0x7F0A002F
 			public const int spacer = 2131361839;

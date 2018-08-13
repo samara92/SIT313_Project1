@@ -2,7 +2,7 @@
 <xs:schema xmlns:app="http://schemas.android.com/apk/res-auto" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res-auto" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v26</xs:documentation>
-    <xs:documentation>13/08/2018 4:42:54 PM</xs:documentation>
+    <xs:documentation>13/08/2018 9:47:23 PM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="allowStacking">
     <xs:annotation>
@@ -157,6 +157,7 @@
             <xs:enumeration value="@drawable/cherry" />
             <xs:enumeration value="@drawable/dragonfruit" />
             <xs:enumeration value="@drawable/game_play" />
+            <xs:enumeration value="@drawable/gamelogo" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/kiwi" />
             <xs:enumeration value="@drawable/mango" />
@@ -175,6 +176,7 @@
             <xs:enumeration value="@drawable/orange" />
             <xs:enumeration value="@drawable/papaya" />
             <xs:enumeration value="@drawable/strawberry" />
+            <xs:enumeration value="@drawable/text" />
             <xs:enumeration value="@drawable/watermelon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -756,6 +758,7 @@
             <xs:enumeration value="@drawable/cherry" />
             <xs:enumeration value="@drawable/dragonfruit" />
             <xs:enumeration value="@drawable/game_play" />
+            <xs:enumeration value="@drawable/gamelogo" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/kiwi" />
             <xs:enumeration value="@drawable/mango" />
@@ -774,6 +777,7 @@
             <xs:enumeration value="@drawable/orange" />
             <xs:enumeration value="@drawable/papaya" />
             <xs:enumeration value="@drawable/strawberry" />
+            <xs:enumeration value="@drawable/text" />
             <xs:enumeration value="@drawable/watermelon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -1283,6 +1287,7 @@
             <xs:enumeration value="@drawable/cherry" />
             <xs:enumeration value="@drawable/dragonfruit" />
             <xs:enumeration value="@drawable/game_play" />
+            <xs:enumeration value="@drawable/gamelogo" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/kiwi" />
             <xs:enumeration value="@drawable/mango" />
@@ -1301,6 +1306,7 @@
             <xs:enumeration value="@drawable/orange" />
             <xs:enumeration value="@drawable/papaya" />
             <xs:enumeration value="@drawable/strawberry" />
+            <xs:enumeration value="@drawable/text" />
             <xs:enumeration value="@drawable/watermelon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -2105,6 +2111,7 @@
             <xs:enumeration value="@drawable/cherry" />
             <xs:enumeration value="@drawable/dragonfruit" />
             <xs:enumeration value="@drawable/game_play" />
+            <xs:enumeration value="@drawable/gamelogo" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/kiwi" />
             <xs:enumeration value="@drawable/mango" />
@@ -2123,6 +2130,7 @@
             <xs:enumeration value="@drawable/orange" />
             <xs:enumeration value="@drawable/papaya" />
             <xs:enumeration value="@drawable/strawberry" />
+            <xs:enumeration value="@drawable/text" />
             <xs:enumeration value="@drawable/watermelon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -2632,6 +2640,7 @@
             <xs:enumeration value="@drawable/cherry" />
             <xs:enumeration value="@drawable/dragonfruit" />
             <xs:enumeration value="@drawable/game_play" />
+            <xs:enumeration value="@drawable/gamelogo" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/kiwi" />
             <xs:enumeration value="@drawable/mango" />
@@ -2650,6 +2659,7 @@
             <xs:enumeration value="@drawable/orange" />
             <xs:enumeration value="@drawable/papaya" />
             <xs:enumeration value="@drawable/strawberry" />
+            <xs:enumeration value="@drawable/text" />
             <xs:enumeration value="@drawable/watermelon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -3273,6 +3283,7 @@
             <xs:enumeration value="@drawable/cherry" />
             <xs:enumeration value="@drawable/dragonfruit" />
             <xs:enumeration value="@drawable/game_play" />
+            <xs:enumeration value="@drawable/gamelogo" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/kiwi" />
             <xs:enumeration value="@drawable/mango" />
@@ -3291,6 +3302,7 @@
             <xs:enumeration value="@drawable/orange" />
             <xs:enumeration value="@drawable/papaya" />
             <xs:enumeration value="@drawable/strawberry" />
+            <xs:enumeration value="@drawable/text" />
             <xs:enumeration value="@drawable/watermelon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -4137,6 +4149,7 @@
             <xs:enumeration value="@drawable/cherry" />
             <xs:enumeration value="@drawable/dragonfruit" />
             <xs:enumeration value="@drawable/game_play" />
+            <xs:enumeration value="@drawable/gamelogo" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/kiwi" />
             <xs:enumeration value="@drawable/mango" />
@@ -4155,6 +4168,7 @@
             <xs:enumeration value="@drawable/orange" />
             <xs:enumeration value="@drawable/papaya" />
             <xs:enumeration value="@drawable/strawberry" />
+            <xs:enumeration value="@drawable/text" />
             <xs:enumeration value="@drawable/watermelon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -4676,6 +4690,7 @@
             <xs:enumeration value="@drawable/cherry" />
             <xs:enumeration value="@drawable/dragonfruit" />
             <xs:enumeration value="@drawable/game_play" />
+            <xs:enumeration value="@drawable/gamelogo" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/kiwi" />
             <xs:enumeration value="@drawable/mango" />
@@ -4694,6 +4709,7 @@
             <xs:enumeration value="@drawable/orange" />
             <xs:enumeration value="@drawable/papaya" />
             <xs:enumeration value="@drawable/strawberry" />
+            <xs:enumeration value="@drawable/text" />
             <xs:enumeration value="@drawable/watermelon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -5275,6 +5291,7 @@
             <xs:enumeration value="@drawable/cherry" />
             <xs:enumeration value="@drawable/dragonfruit" />
             <xs:enumeration value="@drawable/game_play" />
+            <xs:enumeration value="@drawable/gamelogo" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/kiwi" />
             <xs:enumeration value="@drawable/mango" />
@@ -5293,6 +5310,7 @@
             <xs:enumeration value="@drawable/orange" />
             <xs:enumeration value="@drawable/papaya" />
             <xs:enumeration value="@drawable/strawberry" />
+            <xs:enumeration value="@drawable/text" />
             <xs:enumeration value="@drawable/watermelon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -5802,6 +5820,7 @@
             <xs:enumeration value="@drawable/cherry" />
             <xs:enumeration value="@drawable/dragonfruit" />
             <xs:enumeration value="@drawable/game_play" />
+            <xs:enumeration value="@drawable/gamelogo" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/kiwi" />
             <xs:enumeration value="@drawable/mango" />
@@ -5820,6 +5839,7 @@
             <xs:enumeration value="@drawable/orange" />
             <xs:enumeration value="@drawable/papaya" />
             <xs:enumeration value="@drawable/strawberry" />
+            <xs:enumeration value="@drawable/text" />
             <xs:enumeration value="@drawable/watermelon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -6430,6 +6450,7 @@
             <xs:enumeration value="@drawable/cherry" />
             <xs:enumeration value="@drawable/dragonfruit" />
             <xs:enumeration value="@drawable/game_play" />
+            <xs:enumeration value="@drawable/gamelogo" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/kiwi" />
             <xs:enumeration value="@drawable/mango" />
@@ -6448,6 +6469,7 @@
             <xs:enumeration value="@drawable/orange" />
             <xs:enumeration value="@drawable/papaya" />
             <xs:enumeration value="@drawable/strawberry" />
+            <xs:enumeration value="@drawable/text" />
             <xs:enumeration value="@drawable/watermelon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -6969,6 +6991,7 @@
             <xs:enumeration value="@drawable/cherry" />
             <xs:enumeration value="@drawable/dragonfruit" />
             <xs:enumeration value="@drawable/game_play" />
+            <xs:enumeration value="@drawable/gamelogo" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/kiwi" />
             <xs:enumeration value="@drawable/mango" />
@@ -6987,6 +7010,7 @@
             <xs:enumeration value="@drawable/orange" />
             <xs:enumeration value="@drawable/papaya" />
             <xs:enumeration value="@drawable/strawberry" />
+            <xs:enumeration value="@drawable/text" />
             <xs:enumeration value="@drawable/watermelon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -7671,6 +7695,7 @@
             <xs:enumeration value="@drawable/cherry" />
             <xs:enumeration value="@drawable/dragonfruit" />
             <xs:enumeration value="@drawable/game_play" />
+            <xs:enumeration value="@drawable/gamelogo" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/kiwi" />
             <xs:enumeration value="@drawable/mango" />
@@ -7689,6 +7714,7 @@
             <xs:enumeration value="@drawable/orange" />
             <xs:enumeration value="@drawable/papaya" />
             <xs:enumeration value="@drawable/strawberry" />
+            <xs:enumeration value="@drawable/text" />
             <xs:enumeration value="@drawable/watermelon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -8476,6 +8502,7 @@
             <xs:enumeration value="@drawable/cherry" />
             <xs:enumeration value="@drawable/dragonfruit" />
             <xs:enumeration value="@drawable/game_play" />
+            <xs:enumeration value="@drawable/gamelogo" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/kiwi" />
             <xs:enumeration value="@drawable/mango" />
@@ -8494,6 +8521,7 @@
             <xs:enumeration value="@drawable/orange" />
             <xs:enumeration value="@drawable/papaya" />
             <xs:enumeration value="@drawable/strawberry" />
+            <xs:enumeration value="@drawable/text" />
             <xs:enumeration value="@drawable/watermelon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -10182,6 +10210,7 @@
             <xs:enumeration value="@drawable/cherry" />
             <xs:enumeration value="@drawable/dragonfruit" />
             <xs:enumeration value="@drawable/game_play" />
+            <xs:enumeration value="@drawable/gamelogo" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/kiwi" />
             <xs:enumeration value="@drawable/mango" />
@@ -10200,6 +10229,7 @@
             <xs:enumeration value="@drawable/orange" />
             <xs:enumeration value="@drawable/papaya" />
             <xs:enumeration value="@drawable/strawberry" />
+            <xs:enumeration value="@drawable/text" />
             <xs:enumeration value="@drawable/watermelon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -10884,6 +10914,7 @@
             <xs:enumeration value="@drawable/cherry" />
             <xs:enumeration value="@drawable/dragonfruit" />
             <xs:enumeration value="@drawable/game_play" />
+            <xs:enumeration value="@drawable/gamelogo" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/kiwi" />
             <xs:enumeration value="@drawable/mango" />
@@ -10902,6 +10933,7 @@
             <xs:enumeration value="@drawable/orange" />
             <xs:enumeration value="@drawable/papaya" />
             <xs:enumeration value="@drawable/strawberry" />
+            <xs:enumeration value="@drawable/text" />
             <xs:enumeration value="@drawable/watermelon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -11605,6 +11637,7 @@
             <xs:enumeration value="@drawable/cherry" />
             <xs:enumeration value="@drawable/dragonfruit" />
             <xs:enumeration value="@drawable/game_play" />
+            <xs:enumeration value="@drawable/gamelogo" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/kiwi" />
             <xs:enumeration value="@drawable/mango" />
@@ -11623,6 +11656,7 @@
             <xs:enumeration value="@drawable/orange" />
             <xs:enumeration value="@drawable/papaya" />
             <xs:enumeration value="@drawable/strawberry" />
+            <xs:enumeration value="@drawable/text" />
             <xs:enumeration value="@drawable/watermelon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
