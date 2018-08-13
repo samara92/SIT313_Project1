@@ -1670,13 +1670,25 @@ namespace Assignment1
 			public const int apple = 2130771970;
 			
 			// aapt resource value: 0x7F010003
-			public const int Game_Play = 2130771971;
+			public const int banana = 2130771971;
 			
 			// aapt resource value: 0x7F010004
-			public const int Icon = 2130771972;
+			public const int cherry = 2130771972;
 			
 			// aapt resource value: 0x7F010005
-			public const int mango = 2130771973;
+			public const int DragonFruit = 2130771973;
+			
+			// aapt resource value: 0x7F010006
+			public const int Game_Play = 2130771974;
+			
+			// aapt resource value: 0x7F010007
+			public const int Icon = 2130771975;
+			
+			// aapt resource value: 0x7F010008
+			public const int kiwi = 2130771976;
+			
+			// aapt resource value: 0x7F010009
+			public const int mango = 2130771977;
 			
 			// aapt resource value: 0x7F020053
 			public const int notification_action_background = 2130837587;
@@ -1714,8 +1726,17 @@ namespace Assignment1
 			// aapt resource value: 0x7F02005C
 			public const int notify_panel_notification_icon_bg = 2130837596;
 			
-			// aapt resource value: 0x7F010006
-			public const int orange = 2130771974;
+			// aapt resource value: 0x7F010010
+			public const int orange = 2130771984;
+			
+			// aapt resource value: 0x7F010011
+			public const int papaya = 2130771985;
+			
+			// aapt resource value: 0x7F010012
+			public const int strawberry = 2130771986;
+			
+			// aapt resource value: 0x7F010013
+			public const int watermelon = 2130771987;
 			
 			static Drawable()
 			{
@@ -1823,6 +1844,9 @@ namespace Assignment1
 			
 			// aapt resource value: 0x7F020005
 			public const int btnSubmit = 2130837509;
+			
+			// aapt resource value: 0x7F020006
+			public const int btnSubmit1 = 2130837510;
 			
 			// aapt resource value: 0x7F0A002E
 			public const int buttonPanel = 2131361838;
@@ -2209,6 +2233,9 @@ namespace Assignment1
 			
 			// aapt resource value: 0x7F030002
 			public const int main = 2130903042;
+			
+			// aapt resource value: 0x7F030003
+			public const int menu = 2130903043;
 			
 			// aapt resource value: 0x7F03001B
 			public const int notification_action = 2130903067;

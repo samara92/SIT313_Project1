@@ -12,6 +12,7 @@ using Android.Views;
 using Android.Widget;
 using Java.Lang;
 
+
 namespace Assignment1.Adapter
 {
     public class GrideViewSuggestAdapter : BaseAdapter

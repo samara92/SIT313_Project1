@@ -84,6 +84,7 @@
     <Compile Include="Adapter\GridViewAnswerAdapter.cs" />
     <Compile Include="Common\Common.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="MenuActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -102,7 +103,9 @@
     <AndroidResource Include="Resources\drawable\Icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Properties\AndroidManifest.xml" />
+    <Content Include="Properties\AndroidManifest.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <AndroidResource Include="Resources\values\styles.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
@@ -123,6 +126,16 @@
     <AndroidResource Include="Resources\drawable\mango.png" />
     <AndroidResource Include="Resources\drawable\Game_Play.mp3">
       <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\kiwi.png" />
+    <AndroidResource Include="Resources\drawable\papaya.png" />
+    <AndroidResource Include="Resources\drawable\strawberry.png" />
+    <AndroidResource Include="Resources\drawable\watermelon.png" />
+    <AndroidResource Include="Resources\drawable\banana.png" />
+    <AndroidResource Include="Resources\drawable\cherry.png" />
+    <AndroidResource Include="Resources\drawable\DragonFruit.png" />
+    <AndroidResource Include="Resources\layout\menu.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

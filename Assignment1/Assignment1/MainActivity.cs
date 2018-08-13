@@ -34,7 +34,14 @@ namespace Assignment1
 
             Resource.Drawable.mango,
             Resource.Drawable.apple,
-            Resource.Drawable.orange
+            Resource.Drawable.orange,
+            Resource.Drawable.banana,
+            Resource.Drawable.cherry,
+            Resource.Drawable.DragonFruit,
+            Resource.Drawable.kiwi,
+            Resource.Drawable.papaya,
+            Resource.Drawable.strawberry,
+            Resource.Drawable.watermelon
 
 
         };
