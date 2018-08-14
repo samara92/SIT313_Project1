@@ -16,6 +16,8 @@
       - layout
   - Values
   
+# All the images in game from : https://www.hindimeaning.com/2016/10/fruits-images-pictures-of-fruits.html 
+
 # public classes/functions/methods
 
 public override View GetView(int position, View convertView, ViewGroup parent)
